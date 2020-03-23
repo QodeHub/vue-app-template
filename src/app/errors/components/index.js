@@ -1,3 +1,6 @@
-import Vue from 'vue'
+import Vue from "vue";
 
-export const NotFound = Vue.component('not-found', require('./NotFound').default)
+export const NotFound = Vue.component(
+  "not-found",
+  require("./NotFound").default
+);

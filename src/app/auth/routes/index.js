@@ -1,13 +1,10 @@
-import { Login } from '../components'
+import { Login } from "../components";
 
 export default [
-
-	{
-		path: '/login',
-		component: Login,
-		name: 'login',
-		meta: {
-
-		}
-	}
-]
+  {
+    path: "/login",
+    component: Login,
+    name: "login",
+    meta: {}
+  }
+];

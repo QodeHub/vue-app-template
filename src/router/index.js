@@ -1,15 +1,15 @@
-import Vue from 'vue'
-import Router from 'vue-router'
-import { routes as routes } from '../app/index'
+import Vue from "vue";
+import Router from "vue-router";
+import { routes } from "../app/index";
 
-Vue.use(Router)
+Vue.use(Router);
 
-console.log(routes)
+console.log(routes);
 
 const router = new Router({
-  mode: 'history',
+  mode: "history",
   base: process.env.BASE_URL,
   routes
-})
+});
 
-export default router
+export default router;

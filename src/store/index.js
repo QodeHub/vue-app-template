@@ -1,19 +1,16 @@
-import Vue from 'vue'
-import Vuex from 'vuex'
-import auth from '../app/auth/store'
-import home from '../app/home/store'
+import Vue from "vue";
+import Vuex from "vuex";
+import auth from "../app/auth/store";
+import home from "../app/home/store";
 
-Vue.use(Vuex)
+Vue.use(Vuex);
 
 export default new Vuex.Store({
-  state: {
-  },
-  mutations: {
-  },
-  actions: {
-  },
+  state: {},
+  mutations: {},
+  actions: {},
   modules: {
-  	auth,
-  	home
+    auth,
+    home
   }
-})
+});

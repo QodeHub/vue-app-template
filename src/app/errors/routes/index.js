@@ -1,9 +1,9 @@
-import { NotFound } from '../components'
+import { NotFound } from "../components";
 
 export default [
-	{
-		path: '*',
-		component: NotFound,
-		name: 'not-found'
-	}
-]
+  {
+    path: "*",
+    component: NotFound,
+    name: "not-found"
+  }
+];
